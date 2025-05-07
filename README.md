@@ -96,19 +96,19 @@ http://localhost:6379
 
 ## Features:  
 
-| Feature                                        | Status |
-|------------------------------------------------|--------|
-| TypeScript full stack (Node 20)                | ✅     |
-| JWT-based login/logout flow                    | 🔒     |
-| Claude 3 integration via AWS Bedrock API       | 🤖     |
-| Redis caching to avoid duplicate Claude charges| ⚡     |
-| React frontend with MUI 5 styling              | 💎     |
-| Express REST API (clean modular structure)     | 🔥     |
-| Friendly error handling (network/server issues)| 🧠     |
-| Secure password hashing with bcrypt            | 🔑     |
-| Unauthorized API calls are blocked without JWT | 🚫     |
-| Jest unit tests (backend + frontend)           | 🧪     |
-| GitHub Actions CI pipeline (backend + frontend)| 🤖     |
+| Feature |
+|---------|
+| ✅ TypeScript full stack (Node 20) |
+| 🔒 JWT-based login/logout flow |
+| 🤖 Claude 3 integration via AWS Bedrock API |
+| ⚡ Redis caching to avoid duplicate Claude charges |
+| 💎 React frontend with MUI 5 styling |
+| 🔥 Express REST API (clean modular structure) |
+| 🧠 Friendly error handling (network/server issues) |
+| 🔑 Secure password hashing with bcrypt |
+| 🚫 Unauthorized API calls are blocked without JWT |
+| 🧪 Jest unit tests (backend + frontend) |
+| 🤖 GitHub Actions CI pipeline (backend + frontend) |
 
 
 
