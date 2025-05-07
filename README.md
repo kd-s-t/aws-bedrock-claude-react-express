@@ -33,7 +33,7 @@ A full-stack AI chat app using AWS Bedrock Claude 3, secured with JWT authentica
 ## Backend (Express + AWS Bedrock): 
 
 ```bash
-cd backend
+cd expressjs
 nvm use 20
 npm install
 npm run dev
@@ -67,7 +67,7 @@ Backend unit test
 
 ## Frontend (React + MUI 5): 
 ```bash
-cd frontend
+cd reactjs
 nvm use 20
 npm install
 PORT=3010 npm start
