@@ -44,7 +44,7 @@ AWS_ACCESS_KEY_ID=your-aws-access-key
 AWS_SECRET_ACCESS_KEY=your-aws-secret-key
 JWT_SECRET=your-secret-key
 ```
-✅ Uses Claude model: anthropic.claude-3-opus-20240229-v1:0  
+✅ Uses Claude model: anthropic.claude-3-opus-20240229-v1:0    
 ✅ Redis must be running (see below)  
 ✅ Unit tests using Jest (auth, Bedrock, routes)  
 ✅ GitHub Actions for CI testing  
@@ -88,6 +88,8 @@ Frontend unit test
 Server will run at:
 http://localhost:6379
 
+## Features:  
+
 | Feature                                        | Status |
 |------------------------------------------------|--------|
 | TypeScript full stack (Node 20)                | ✅     |
@@ -99,8 +101,9 @@ http://localhost:6379
 | Friendly error handling (network/server issues)| 🧠     |
 | Secure password hashing with bcrypt            | 🔑     |
 | Unauthorized API calls are blocked without JWT | 🚫     |
-| Jest unit tests (backend)                      | 🧪     |
+| Jest unit tests (backend + frontend)           | 🧪     |
 | GitHub Actions CI pipeline (backend + frontend)| 🤖     |
+
 
 
 
